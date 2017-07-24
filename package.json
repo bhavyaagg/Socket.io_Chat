@@ -1,19 +1,24 @@
 {
-  "name": "socketio",
+  "name": "socket_chat",
   "version": "1.0.0",
-  "description": "",
+  "description": "Chat System Using Node.js Server and Socket.io",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.16.1",
-    "express": "^4.14.1",
-    "hbs": "^4.0.1",
-    "socket.io": "^1.7.3"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavyaagg/Socket_Chat.git"
+  },
+  "author": "Bhavya Aggarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhavyaagg/Socket_Chat/issues"
+  },
+  "homepage": "https://github.com/bhavyaagg/Socket_Chat#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "socket.io": "^2.0.3"
+  }
 }
